@@ -1,0 +1,35 @@
+.login-menu{
+    display: flex;
+    
+
+}
+.login-menu li{
+    list-style-type: none;
+    margin-left: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color: cadetblue;
+}
+.login-menu li a{
+    text-decoration: none;
+}
+.login-menu h3{
+    margin: 0;
+    
+    
+}
+
+.heading{
+    color: cadetblue;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.login-div {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
