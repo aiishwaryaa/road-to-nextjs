@@ -12,11 +12,13 @@ export default function Home(){
   return (
     <main className={styles.main}>
     <h1>Home page</h1>
-    <Link href='/login'>Go to Login Page</Link>
+    <Link href='/login'>Go to Login Page</Link><br /><br />
     <Link href='/about'>Go to About Page</Link>
 <br /><br />
-<button className={styles.button} onClick={()=>navigate('/login')}>Go to Login page</button>
-<button className={styles.button} onClick={()=>navigate('/about')}>Go to About page</button>
+<button className={styles.button} onClick={()=>navigate('/login')}>Go to Login page</button><br /><br />
+<button className={styles.button} onClick={()=>navigate('/about')}>Go to About page</button><br /><br />
+<button className={styles.button} onClick={()=>navigate('/productlist(clientside)')}>Go to ProductList page client side</button><br /><br />
+<button className={styles.button} onClick={()=>navigate('/productlist(serverside)')}>Go to ProductList page server side</button><br />
 
     </main>
   )
