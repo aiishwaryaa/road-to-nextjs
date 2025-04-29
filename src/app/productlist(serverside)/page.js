@@ -4,7 +4,6 @@ async function productList(){
     let data = await fetch("https://dummyjson.com/products")
     data = await data.json();
     return data.products;
-
 }
 
 export default async function Page(){
@@ -14,7 +13,6 @@ export default async function Page(){
     text:{
         color:"blue",
         fontSize:"40px"
-    
     }
  }
     return(
